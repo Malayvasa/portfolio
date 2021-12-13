@@ -26,7 +26,7 @@ function Modfy() {
         </div>
 
         <div className="flex flex-col md:flex-row w-4/5 md:w-3/5 mx-auto h-max">
-          <div className="flex-none md:w-64 w-max  font-bold">Modfy</div>
+          <div className="flex-none md:w-64 w-max   font-serif">Modfy</div>
           <div className="space-y-2">
             <p>
               Modfy is building the first in a suite of optimization and
@@ -38,7 +38,7 @@ function Modfy() {
         <div className="w-3/5 mx-auto h-[2px] my-8 md:my-16 bg-[#088060] bg-opacity-30"></div>
 
         <div className="flex flex-col md:flex-row w-4/5 md:w-3/5 mx-auto h-max">
-          <div className="flex-none md:w-64 w-max  font-bold">Context</div>
+          <div className="flex-none md:w-64 w-max   font-serif">Context</div>
           <div className="space-y-2">
             <p>
               Current in-browser video editors are often clunky and vastly cut
@@ -54,9 +54,9 @@ function Modfy() {
         <div className="w-3/5 mx-auto h-[2px] my-8 md:my-16 bg-[#088060] bg-opacity-30"></div>
 
         <div className="flex flex-col md:flex-row w-4/5 md:w-3/5 mx-auto h-max">
-          <div className="flex-none md:w-64 w-max  font-bold">Timeline</div>
+          <div className="flex-none md:w-64 w-max   font-serif">Timeline</div>
           <div className="space-y-2">
-            <p>I started with designing the timeline, </p>
+            <p></p>
           </div>
         </div>
 
@@ -68,7 +68,7 @@ function Modfy() {
 
         <div className="w-3/5 mx-auto h-[2px] my-8 md:my-16 bg-[#088060] bg-opacity-30"></div>
 
-        <div className="text-left w-4/5 md:w-3/5 mx-auto font-bold">
+        <div className="text-left w-4/5 md:w-3/5 mx-auto  font-serif">
           File Browser
         </div>
 
@@ -80,7 +80,7 @@ function Modfy() {
 
         <div className="w-3/5 mx-auto h-[2px] my-8 md:my-16 bg-[#088060] bg-opacity-30"></div>
 
-        <div className="text-left w-4/5 md:w-3/5 mx-auto font-bold">
+        <div className="text-left w-4/5 md:w-3/5 mx-auto  font-serif">
           Share Modal
         </div>
 
@@ -92,7 +92,7 @@ function Modfy() {
 
         <div className="w-3/5 mx-auto h-[2px] my-8 md:my-16 bg-[#088060] bg-opacity-30"></div>
 
-        <div className="text-left w-4/5 md:w-3/5 mx-auto font-bold">
+        <div className="text-left w-4/5 md:w-3/5 mx-auto  font-serif">
           Other Elements
         </div>
 
@@ -104,7 +104,9 @@ function Modfy() {
 
         <div className="w-3/5 mx-auto h-[2px] my-8 md:my-16 bg-[#088060] bg-opacity-30"></div>
 
-        <div className="text-left w-4/5 md:w-3/5 mx-auto font-bold">Editor</div>
+        <div className="text-left w-4/5 md:w-3/5 mx-auto  font-serif">
+          Editor
+        </div>
 
         <img
           src={renderpagelaptop}
@@ -113,7 +115,7 @@ function Modfy() {
         />
 
         <div className="w-3/5 mx-auto h-[2px] my-8 md:my-16 bg-[#088060] bg-opacity-30"></div>
-        <div className="text-left w-4/5 md:w-3/5 mx-auto font-bold">
+        <div className="text-left w-4/5 md:w-3/5 mx-auto  font-serif">
           Render Page
         </div>
 
