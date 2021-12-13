@@ -14,10 +14,10 @@ function App() {
         <div className="text-sm md:text-2xl my-auto font-serif text-slate-900 hover:text-cyan-400  transition-colors">
           <Link to="/">Malay Vasa </Link>
         </div>{" "}
-        <div className="text-sm mdtext-2xl my-auto font-serif text-slate-900 hover:text-teal-400  transition-colors">
+        <div className="text-sm md:text-2xl my-auto font-serif text-slate-900 hover:text-teal-400  transition-colors">
           <Link to="/projects">Projects </Link>
         </div>{" "}
-        <div className="text-sm mdtext-2xl my-auto font-serif text-slate-900 hover:text-violet-400  transition-colors">
+        <div className="text-sm md:text-2xl my-auto font-serif text-slate-900 hover:text-violet-400  transition-colors">
           <Link to="/about">About</Link>{" "}
         </div>{" "}
       </div>

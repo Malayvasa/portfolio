@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import modfythumb from "../assets/images/projects/modfythumb.png";
 import twotiredthumb from "../assets/images/projects/twotiredthumb.png";
 import kernelthumb from "../assets/images/projects/kernelthumb.png";
+import genidenthumb from "../assets/images/projects/genidenthumb.png";
+import genrethumb from "../assets/images/projects/genrethumb.png";
 
 function Projects() {
   return (
-    <div className="my-24">
-      <div className="flex flex-col mx-auto space-y-8">
+    <div className="pt-24 min-h-screen">
+      <div className="flex flex-col m-auto space-y-8">
         <div className="w-3/5 mx-auto">
-          <div className="font-serif mx-auto px-4  text-4xl w-max text-teal-400">
+          <div className="font-serif mx-auto px-4 w-full border-b-2 text-center border-teal-400 text-4xl w-max text-teal-400">
             UI/UX
           </div>
         </div>
@@ -36,47 +38,47 @@ function Projects() {
           </div>
         </div>
         <div className="w-3/5 mx-auto">
-          <div className="font-serif mx-auto px-4  text-4xl w-max text-cyan-400">
+          <div className="font-serif mx-auto px-4 border-b-2 w-full text-center border-cyan-400 text-4xl text-cyan-400">
             Creative Coding
           </div>
         </div>
-        <div className="mx-auto flex flex-row space-x-8">
-          <div className=" font-serif text-2xl bg-teal-800 pb-2 shadow-lg">
+        <div className="mx-auto flex flex-row space-x-8 pb-12">
+          <div className=" font-serif text-2xl pb-2">
             <Link to="/kernelnft">
               <img
                 src={kernelthumb}
                 alt="kernelthumb"
-                className=" w-[386px] h-auto"
+                className=" w-[386px] h-auto shadow-lg"
               />
-              <div className="ml-4 mt-2 text-white">Kernel NFT</div>
+              <div className="ml-4 mt-2 text-slate-700">Kernel NFT</div>
             </Link>
           </div>
-        </div>
-        <div className="w-3/5 mx-auto">
-          <div className="font-serif mx-auto bg-teal-50 shadow-md text-4xl w-max text-teal-400">
-            Web Development
+          <div
+            className=" font-serif text-2xl pb-2"
+            onClick={() => {
+              window.location.href =
+                "https://www.behance.net/gallery/89701531/Generative-Identity-Abstract-Symbols-From-Names";
+            }}
+          >
+            <img
+              src={genidenthumb}
+              alt="genidenthumb"
+              className=" w-[386px] h-auto shadow-lg"
+            />
+            <div className="ml-4 mt-2 text-slate-700">Generative Identity</div>
           </div>
-        </div>
-        <div className="mx-auto flex flex-row space-x-8">
-          <div className=" font-serif text-2xl bg-teal-800 pb-2 shadow-lg">
-            <Link to="/modfy">
-              <img
-                src={modfythumb}
-                alt="modfythumb"
-                className=" w-[386px] h-auto"
-              />
-              <div className="ml-4 mt-2 text-white">Modfy Internship</div>
-            </Link>
-          </div>
-          <div className=" font-serif text-2xl bg-teal-800 pb-2 shadow-xl">
-            <Link to="/twotired">
-              <img
-                src={twotiredthumb}
-                alt="twotiredthumb"
-                className=" w-[386px] h-auto"
-              />
-              <div className="ml-4 mt-2 text-white">Two Tired</div>
-            </Link>
+          <div
+            className=" font-serif text-2xl pb-2"
+            onClick={() => {
+              window.location.href = "https://www.genregender.com";
+            }}
+          >
+            <img
+              src={genrethumb}
+              alt="genidenthumb"
+              className=" w-[386px] h-auto shadow-lg"
+            />
+            <div className="ml-4 mt-2 text-slate-700">Genre Gender</div>
           </div>
         </div>
       </div>
